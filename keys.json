@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "bolo-indya-test",
+  "private_key_id": "2dc9f8e4d5730c17704b58b71963d27825e33494",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCt/Lx/KCg2zmJI\nEBzHAc1+vtnYqFsYQdLOJWNgc8L/D0rvutW45bhwvGfsAm5azWrvIxxjusPneDM0\nMhvw1pkCMnQT/6V06nHuJi8dl/oB/ulATfA27NelIMyLv9IbN5iDcmp1w59q4JkL\nC7QJt4snGjs0PK7M8WhNZ6k6O5SktqK8ZzWqZLr/7boxRl39oAkSKhr7MseGnYyT\nXQT5A0gp7nRHpvMrRTsNztaRqL/CNv5wxJ3BcPCMAuYY0TadP4om8aykHurf6iJP\nENW1qvuItY6cGgH2BXqd0mF1L8be/9ZU9Fhcn6mJSDwTEjBXyRjm7MmcIwo4yjIY\nBws+3MxZAgMBAAECggEABST43ZA3eeWp5GsoZqv6VLn+oSFtPBzg/k5sj05RhVgl\nxUvbuzFYPfyJ3KrSBTiXilfjWzhmtX2bt7FOLcNXM0hb6LhTvuEICFxq0KbWFqm7\nhf/ez1s6/M27QNwBDS0ccLFmu3H3Yz2L2Oj6LXVf8QKLMJmTBdwlLpVN3LsAHvAN\nfgkW2c2Z0wFr/5dQfnN/+1KyK3OkPaSX6z7oDsq862D/AuBu9XBeN/Hmxnm9KDfV\n5ErV/Z2IDzBvLo8+16wWg278/QInCOxvfN+iPLsmGTB9j87pXlCXEsd3kiNHc46K\nv/qg69WrnalrhDyvWBZqrWMEaUoZibHvdFpMHdpAjwKBgQDyBAFfS+RwPu/8Yp7c\nmXjsc4xPGs5SWeSUFjHga86n65VdsXPlX2qQ7slAzt3IVG0Cjh/0oqEaXp6CaEbL\nnekdf7nam2X2Pv/HfQbVYXrO2cWAE+jPcvgg7BY13PzmXBcqNJ8VWCNop6Yhwk3K\n6D4CYsuBEY1bxCEOTm2uqMH2QwKBgQC4Cm1TdnnZV7brtq6qdgkafdH/3tT/wf2Q\nqaMTuBojbB3B2vEC7G6/e0jT9ofdm2ykuSshL6JPrfRW/TFVGz2jiE3fyvO9FdiD\nR9iKOM8zSpRPrd2kmxUrRmjZDMlPR1Gj23Q3h2JnfS2T1eXFf/6GsZQMFF+dZya8\nwrcIo6T/MwKBgA+XTndTLk5E37UErXNMt8uTzhAyi+QmQmF/5Iqup0uOE7tLeUnn\nkbfwiiqQqR0Ew1kMyuY5q+NFATUpfpYTgDcUSWbZ6AGrIVM6rLwGYaD9yolrvu3O\nXEnSq8OgjvJQMHXZmf4IBY/ybPNzzwspVwVUVAPmm5Kz2eVQDCTaXlR9AoGBALY/\nxSGoqmN7hC4J+w/c0YkFXeb3QJCBB1uxUUeewWugjhtBd/fAMK+4I1ebw9HFLyI0\nKCy14hLrnZJjKu4viquduBhM/2+Y6Y6foCTIuw785L++2kU+OglfsUZ3bgbvBj6w\nfHbcv6riADds0xvwcxnpUkVgC4tw8aBtZhnNDACXAoGAEvlCgmvTFY5DwvDxheH0\n9VbGDWBmjynl7kL9rYfpX44wdRquFP1L0k3w305ar+Upoiz89XHbLByUAAodjEVS\nKR522cCzr6OXskReNRjec7u89uV5tYCttMc/SkT8ogKLxXWuvD5S1bqxONAZ8B7I\nyXvs/XBOcFBIqdxlygoOV5w=\n-----END PRIVATE KEY-----\n",
+  "client_email": "cloud-run@bolo-indya-test.iam.gserviceaccount.com",
+  "client_id": "105721140069063610064",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-run%40bolo-indya-test.iam.gserviceaccount.com"
+}
