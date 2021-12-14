@@ -82,9 +82,7 @@ app.use((err, req, res, next) => {
   });
   next();
 })
-app.get("/", () => {
-  res.send("server running at post : 9001 ", new Date());
-});
+
 app.listen(9001, () => {
   console.log("app now listening for requests!!!");
 });
