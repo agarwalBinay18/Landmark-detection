@@ -1,0 +1,41 @@
+steps:
+
+# Build the container image
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'asia.gcr.io/synergybyte/binay:$COMMIT_SHA', '.']
+# Push the image to Container Registry
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'asia.gcr.io/synergybyte/binay:$COMMIT_SHA']
+# Deploy image to Cloud Run
+- name: 'gcr.io/cloud-builders/gcloud'
+  args:
+  - 'run'
+  - 'deploy'
+  - 'binay'
+  - '--project'
+  - 'bolo-indya-test'
+  - '--image'
+  - 'asia.gcr.io/synergybyte/binay:$COMMIT_SHA'
+  - '--region'
+  - 'asia-south1'
+  - '--platform'
+  - 'managed'
+  - '--port'
+  - '8080'
+  - '--memory'
+  - '128Mi'
+  - '--cpu'
+  - '1'
+  - '--timeout'
+  - '5'
+  - '--concurrency'
+  - '80'
+  - '--min-instances'
+  - '0'
+  - '--max-instances'
+  - '3'
+  - '--service-account'
+  - 'cloud-run@bolo-indya-test.iam.gserviceaccount.com'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
